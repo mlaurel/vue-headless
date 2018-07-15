@@ -2,7 +2,7 @@
   <div class="hello">
     <div v-for="proj in projects">
       <h1>{{ proj.title.rendered }}</h1>
-      <img  :src="proj.better_featured_image.source_url">
+      <!-- <img  :src="proj.better_featured_image.source_url"> -->
     <!-- <h1>{{ msg }}</h1> -->
     </div>
   </div>
@@ -28,7 +28,7 @@ export default {
     }
   }
   // props: {
-  //   msg: String, 
+    // msg: String, 
   // }
 }
 </script>
